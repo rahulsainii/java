@@ -1,0 +1,20 @@
+1)error: ";" expected
+      ==error:Scanner obj=new Scanner(System.in)^
+2)if we dont use "import java.util.*;"
+      ==error:can't find symbol Scanner;
+3)if we mistake spellings os any identifier like
+  or if forget to use any identifier
+        public becomes pubblic
+      ==error:identifier expected;
+4)if we write wrong file name while compilation
+      ==javac:file not found filename.java
+        usage javac <usage><option file>
+        use-help for list of possible options		
+5)if a variable is not declared
+     ==	symbol:variable (variable name)
+	    location:class (class name)
+		error:can't find symbol;
+6)  sp=nextDouble();
+ if we dont use object name here		
+     ==error:can't find symbol;		
+		
